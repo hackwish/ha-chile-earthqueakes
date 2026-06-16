@@ -1,0 +1,6 @@
+[tool.semantic_release]
+version_variables = [
+    "custom_components/chile_earthquakes/manifest.json:version",
+]
+branch = "main"
+build_command = ""
