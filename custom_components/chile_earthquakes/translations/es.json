@@ -1,0 +1,24 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Sismos de Chile",
+        "description": "Monitorea y recibe alertas de los últimos sismos en Chile usando datos del CSN (Centro Sismológico Nacional) y USGS."
+      }
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Opciones de Sismos de Chile",
+        "description": "Configura la fuente de datos, umbral de alerta e intervalo de actualización.",
+        "data": {
+          "primary_source": "Fuente de datos principal",
+          "alert_threshold": "Umbral de magnitud para alerta",
+          "scan_interval": "Intervalo de actualización (segundos)",
+          "alert_reset_minutes": "Reinicio automático de alerta (minutos)"
+        }
+      }
+    }
+  }
+}

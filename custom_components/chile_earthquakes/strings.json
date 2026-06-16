@@ -1,0 +1,24 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Chile Earthquakes",
+        "description": "Monitor and get alerts for the latest earthquakes in Chile using data from CSN (Centro Sismológico Nacional) and USGS."
+      }
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Chile Earthquakes Options",
+        "description": "Configure data source, alert threshold, and polling interval.",
+        "data": {
+          "primary_source": "Primary data source",
+          "alert_threshold": "Alert magnitude threshold",
+          "scan_interval": "Polling interval (seconds)",
+          "alert_reset_minutes": "Alert auto-reset (minutes)"
+        }
+      }
+    }
+  }
+}
