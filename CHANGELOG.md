@@ -1,7 +1,15 @@
 # CHANGELOG
 
 
+## v0.2.1 (2026-06-16)
+
+
 ## v0.2.0 (2026-06-16)
+
+### Bug Fixes
+
+- Resolve HACS validation issues - remove invalid icon key, add issue_tracker, add brand assets
+  ([`d9f7411`](https://github.com/hackwish/ha-chile-earthqueakes/commit/d9f7411e1a94ade78bc0316a5815e153c6816281))
 
 
 ## v0.1.0 (2026-06-16)
