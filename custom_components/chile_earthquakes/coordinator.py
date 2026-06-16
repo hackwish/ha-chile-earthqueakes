@@ -40,9 +40,7 @@ class ChileEarthquakeCoordinator(DataUpdateCoordinator[Optional[EarthquakeData]]
             hass,
             LOGGER,
             name=DOMAIN,
-            update_interval=timedelta(
-                seconds=config_entry.options.get(CONF_SCAN_INTERVAL, DEFAULT_SCAN_INTERVAL)
-            ),
+            update_interval=timedelta(seconds=config_entry.options.get(CONF_SCAN_INTERVAL, DEFAULT_SCAN_INTERVAL)),
         )
 
     @property

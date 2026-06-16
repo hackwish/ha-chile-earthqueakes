@@ -133,9 +133,7 @@ class EarthquakeAPI:
 
     async def _fetch_sismologia(self) -> Optional[EarthquakeData]:
         headers = {"User-Agent": "ha-chile-earthquakes/0.1.0 (hackwish)"}
-        async with self.session.get(
-            SISMOLOGIA_URL, timeout=aiohttp.ClientTimeout(total=15), headers=headers
-        ) as resp:
+        async with self.session.get(SISMOLOGIA_URL, timeout=aiohttp.ClientTimeout(total=15), headers=headers) as resp:
             resp.raise_for_status()
             html = await resp.text()
         try:
